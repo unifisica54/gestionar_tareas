@@ -1,0 +1,129 @@
+{
+  "info": {
+    "name": "TAREA",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "bruno",
+      "event": []
+    },
+    {
+      "name": "tarea_store",
+      "event": [],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": "localhost/prueba_analista_software/gestionar_tareas/public/index.php/api/tarea/store",
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "dni",
+              "value": "4849490343",
+              "disabled": false,
+              "type": "default"
+            },
+            {
+              "key": "descripcion",
+              "value": "fewsdf",
+              "disabled": false,
+              "type": "default"
+            },
+            {
+              "key": "fecha_vencimiento",
+              "value": "",
+              "disabled": false,
+              "type": "default"
+            },
+            {
+              "key": "estado_id",
+              "value": "1",
+              "disabled": false,
+              "type": "default"
+            },
+            {
+              "key": "titulo",
+              "value": "ewewewe",
+              "disabled": false,
+              "type": "default"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "tarea_index",
+      "event": [],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": "localhost/prueba_analista_software/gestionar_tareas/public/index.php/api/tarea/index",
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "search",
+              "value": "",
+              "disabled": false,
+              "type": "default"
+            },
+            {
+              "key": "size",
+              "value": "",
+              "disabled": false,
+              "type": "default"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "tarea_delete",
+      "event": [],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "localhost/prueba_analista_software/gestionar_tareas/public/index.php/api/tarea/delete/7",
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "descripcion",
+              "value": "completado",
+              "disabled": false,
+              "type": "default"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "login",
+      "event": [],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": "localhost/prueba_analista_software/gestionar_tareas/public/index.php/api/login",
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "email",
+              "value": "prueba@gmail.com",
+              "disabled": false,
+              "type": "default"
+            },
+            {
+              "key": "password",
+              "value": "12345678",
+              "disabled": false,
+              "type": "default"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "variable": []
+}
